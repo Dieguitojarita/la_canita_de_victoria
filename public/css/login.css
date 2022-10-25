@@ -1,0 +1,45 @@
+:root {
+    --dark: #2178cf;
+    --dark-x: #e02727;
+    --light: #ffffff;
+}
+.k {
+    width: 35%;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.bg-dark{ background-color: var(--dark);}
+.bg-dark-x {background-color: var(--dark-x);}
+.form-control, .btn{
+    min-height: 2.5rem;
+    line-height: initial;
+}
+.t {
+    padding-right: 10px;
+}
+.img-1 {
+    background-image: url(../images/tienda.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-2 {
+    background-image: url(../images/tienda2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.f {
+    color: var(--dark);}
+.card {
+    width: 90%;
+    height: 50%;
+}
+a {
+    text-decoration: none;
+}
+.fondo {
+	background:url(../images/rolito.jpg) no-repeat 0% 0% / 100% 100%;
+
+}
